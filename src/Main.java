@@ -59,6 +59,7 @@ public class Main {
                 AutoU.setMotor(motorGasoil);
                 System.out.println("Se asignó un motor a gasoil al auto " + i);
             }
+            //se pinta de verde al auto 1
             if(i == 2){
                 AutoU.pintarDeVerde();
                 System.out.println("el auto "+i+" ha sido pintado de verde");
