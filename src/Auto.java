@@ -15,7 +15,9 @@ public class Auto {
     private String revision;
     private static int cantidadAutos = 0;
     private Motor motor;
-
+    // Se pueden crear varios constructores con diferentes parámetros (sobrecarga).
+    // No se puede crear un constructor con la misma lista de parámetros que otro existente.
+    // El constructor debe tener el mismo nombre que la clase.
     public Auto(){
         this.matricula = "";
         this.color= "blanco";
